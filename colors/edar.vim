@@ -51,7 +51,7 @@ function! s:h(group, style)
 endfunction
 
 call s:h("Normal",      {"fg": s:fg        , "bg": s:bg        , "format": "none"})
-call s:h("Cursor",      {                                        "format": "reverse,underline"})
+call s:h("Cursor",      {"fg": s:bg        , "bg": s:fg        , "format": "none"})
 call s:h("VertSplit",   {"fg": s:dark      , "bg": s:bg_l1     , "format": "none"})
 call s:h("Folded",      {"fg": s:teal      , "bg": s:black     , "format": "none"})
 call s:h("FoldColumn",  {"fg": s:teal      , "bg": s:black     , "format": "none"})
@@ -65,7 +65,7 @@ call s:h("NonText",     {"fg": s:teal      , "bg": s:black     , "format": "none
 call s:h("Question",    {"fg": s:black     , "bg": s:teal      , "format": "none"})
 call s:h("IncSearch",   {"fg": s:red       , "bg": s:teal      , "format": "none"})
 call s:h("Search",      {"fg": s:black     , "bg": s:teal      , "format": "italic"})
-call s:h("SpecialKey",  {"fg": s:teal      , "bg": s:changethis, "format": "none"})
+call s:h("SpecialKey",  {"fg": s:teal      , "bg": s:black     , "format": "none"})
 call s:h("StatusLine",  {"fg": s:teal      , "bg": s:bg_l1     , "format": "none"})
 call s:h("StatusLineNC",{"fg": s:blue      , "bg": s:bg_l1     , "format": "none"})
 call s:h("Title",       {"fg": s:yellow                        , "format": "none"})
