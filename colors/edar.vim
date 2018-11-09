@@ -63,7 +63,7 @@ call s:h("PmenuSbar",   {"fg": s:teal      , "bg": s:bg        , "format": "none
 call s:h("PmenuThumb",  {"fg": s:bg        , "bg": s:teal      , "format": "none"})
 call s:h("NonText",     {"fg": s:teal      , "bg": s:black     , "format": "none"})
 call s:h("Question",    {"fg": s:black     , "bg": s:teal      , "format": "none"})
-call s:h("IncSearch",   {"fg": s:red       , "bg": s:teal      , "format": "none"})
+call s:h("IncSearch",   {"fg": s:blue      , "bg": s:teal      , "format": "none"})
 call s:h("Search",      {"fg": s:teal      , "bg": s:blue      , "format": "none"})
 call s:h("SpecialKey",  {"fg": s:black     , "bg": s:teal      , "format": "none"})
 call s:h("StatusLine",  {"fg": s:teal      , "bg": s:bg_l1     , "format": "none"})
