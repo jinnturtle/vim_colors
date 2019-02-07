@@ -13,6 +13,7 @@ let s:black_ink =       { "gui": "#302010", "cterm": "0"}
 let s:red_ink =         { "gui": "#800000", "cterm": "0"}
 let s:green_ink =       { "gui": "#006000", "cterm": "0"}
 let s:blue_ink =        { "gui": "#0000A8", "cterm": "0"}
+let s:teal_ink =        { "gui": "#006090", "cterm": "0"}
 let s:purple_ink =      { "gui": "#A000A0", "cterm": "0"}
 let s:pencil =          { "gui": "#888888", "cterm": "243"}
 
@@ -92,6 +93,6 @@ call s:h("Comment",         {"fg": s:pencil })
 call s:h("Statement",       {"fg": s:red_ink,                                  "format": "bold"})
 call s:h("Constant",        {"fg": s:purple_ink})
 call s:h("Type",            {"fg": s:blue_ink,                                 "format": "none"})
-call s:h("String",          {"fg": s:green_ink})
+call s:h("String",          {"fg": s:teal_ink})
 call s:h("Special",         {"fg": s:red_ink})
 call s:h("TagListFileName", {"fg": s:green_ink,                                "format": "bold"})
