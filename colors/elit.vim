@@ -45,7 +45,7 @@ endfunction
 call s:h("Normal",          {"fg": s:black_ink,    "bg": s:white_paper})
 call s:h("Cursor",          {"fg": s:white_paper,  "bg": s:green_ink})
 call s:h("VertSplit",       {"fg": s:pencil,       "bg": s:antique_paper})
-call s:h("Folded",          {"fg": s:red_ink,      "bg": s:antique_paper})
+call s:h("Folded",          {"fg": s:blue_ink,     "bg": s:antique_paper})
 call s:h("FoldColumn",      {"fg": s:red_ink,      "bg": s:antique_paper})
 call s:h("ModeMsg",         {"fg": s:red_ink,      "bg": s:old_paper})
 call s:h("MoreMsg",         {"fg": s:white_paper,  "bg": s:green_ink})
