@@ -57,7 +57,7 @@ call s:h("Folded",      {"fg": s:teal      , "bg": s:black     , "format": "none
 call s:h("FoldColumn",  {"fg": s:teal      , "bg": s:black     , "format": "none"})
 call s:h("ModeMsg",     {"fg": s:green     , "bg": s:black     , "format": "none"})
 call s:h("MoreMsg",     {"fg": s:black     , "bg": s:green     , "format": "none"})
-call s:h("Pmenu",       {"fg": s:teal      , "bg": s:bg        , "format": "none"})
+call s:h("Pmenu",       {"fg": s:teal      , "bg": s:bg_l1     , "format": "none"})
 call s:h("PmenuSel",    {"fg": s:teal      , "bg": s:bg        , "format": "reverse"})
 call s:h("PmenuSbar",   {"fg": s:teal      , "bg": s:bg        , "format": "none"})
 call s:h("PmenuThumb",  {"fg": s:bg        , "bg": s:teal      , "format": "none"})
