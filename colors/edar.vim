@@ -11,11 +11,11 @@ endif
 let g:colors_name = "edar"
 
 let s:fg         = {"gui": "#90A0B0", "cterm": "0"}
-let s:bg         = {"gui": "#000a1a", "cterm": "1"}
+let s:bg         = {"gui": "#000a1a", "cterm": "0"}
 let s:bg_l1      = {"gui": "#101a2a", "cterm": "0"}
-let s:dark       = {"gui": "#585878", "cterm": "0"}
+let s:dark       = {"gui": "#707090", "cterm": "0"}
 
-let s:black      = {"gui": "#000000", "cterm": "1"}
+let s:black      = {"gui": "#000000", "cterm": "0"}
 
 let s:red        = {"gui": "#F00000", "cterm": "0"}
 let s:green      = {"gui": "#00A000", "cterm": "0"}
@@ -53,7 +53,7 @@ endfunction
 call s:h("Normal",      {"fg": s:fg        , "bg": s:bg        , "format": "none"})
 call s:h("Cursor",      {"fg": s:bg        , "bg": s:fg        , "format": "none"})
 call s:h("VertSplit",   {"fg": s:dark      , "bg": s:bg_l1     , "format": "none"})
-call s:h("Folded",      {"fg": s:teal      , "bg": s:black     , "format": "none"})
+call s:h("Folded",      {"fg": s:dark      , "bg": s:black     , "format": "none"})
 call s:h("FoldColumn",  {"fg": s:teal      , "bg": s:black     , "format": "none"})
 call s:h("ModeMsg",     {"fg": s:green     , "bg": s:black     , "format": "none"})
 call s:h("MoreMsg",     {"fg": s:black     , "bg": s:green     , "format": "none"})
