@@ -1,6 +1,6 @@
 "Vim color file
 "color scheme name: Elit
-"author: DrXVII
+"author: jinnturtle
 :set background=light
 :highlight clear
 if exists("syntax_on")

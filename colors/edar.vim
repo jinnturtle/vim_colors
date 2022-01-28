@@ -1,6 +1,6 @@
 "Vim color file
 "color scheme name: Edar
-"author: DrXVII
+"author: jinnturtle
 
 highlight clear
 if exists("syntax_on")
@@ -92,6 +92,8 @@ call s:h("DiffText",    {"fg": s:fg        , "bg": s:bg        , "format": "none
 call s:h("Underlined",  {"fg": s:fg        , "bg": s:bg        , "format": "underline"})
 call s:h("Error",       {"fg": s:black     , "bg": s:red       , "format": "none"})
 call s:h("SpellErrors", {"fg": s:red                           , "format": "italic,undercurl"})
+call s:h("SpellBad",    {"fg": s:red                           , "format": "italic,undercurl"})
+call s:h("SpellCap",    {"fg": s:blue                          , "format": "italic,undercurl"})
 call s:h("ColorColumn", {                    "bg": s:bg_l1     , "format": "none"})
 call s:h("CursorLine",  {                    "bg": s:bg_l1     , "format": "none"})
 call s:h("CursorLineNr",{"fg": s:teal      , "bg": s:bg_l1     , "format": "none"})
